@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Singleton;
+package Factory_pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public class maina {
-    public static void main(String[] args) {
-        singleton h = singleton.getInstance();
-        h.print();
-        h.set(); 
-        h.print();
-        
-        
+public class cheese_pizza implements type_print{
+
+    @Override
+    public void type() {
+        System.out.println("It's a cheese one");
     }
+    
 }

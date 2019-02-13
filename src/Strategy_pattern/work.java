@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Singleton;
+package Strategy_pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public class maina {
-    public static void main(String[] args) {
-        singleton h = singleton.getInstance();
-        h.print();
-        h.set(); 
-        h.print();
-        
-        
-    }
+public class work {
+    private Sorting strategy;
+    
+    public work(Sorting strategy){
+      this.strategy = strategy;
+   }
+
+   public void executework(){
+       strategy.sort();
+   }
 }

@@ -3,20 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategy.pattern;
+package Factory_pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public class work {
-    private Sorting strategy;
-    
-    public work(Sorting strategy){
-      this.strategy = strategy;
-   }
+public class margerita_pizza implements type_print {
 
-   public void executework(){
-       strategy.sort();
-   }
+    @Override
+    public void type() {
+        System.out.println("It's a Margerita");
+    }
+    
 }

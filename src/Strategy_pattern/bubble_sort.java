@@ -3,21 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategy.pattern;
+package Strategy_pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public class merge_sort implements Sorting{
+public class bubble_sort implements Sorting{
     int[] ara;
-    
-    merge_sort(int[] ara) {
+    bubble_sort(int[] ara) {
         this.ara = ara;
     }
+
+   
+
     @Override
     public void sort() {
-        System.out.print("HELLO");
+        System.out.print("HII");    
     }
     
 }
