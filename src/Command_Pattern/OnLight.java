@@ -3,12 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory_pattern;
+package Command_Pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public interface type_print {
-    void type(); 
+public class OnLight implements execution  {
+    lightClass l;
+    
+    public OnLight(lightClass l){
+        this.l = l;
+    }
+    
+    @Override
+    public void exc() {
+        l.on();
+    }
+    
 }

@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory_pattern;
+package Command_Pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public interface type_print {
-    void type(); 
+public class lightClass {
+    
+    public void on(){
+        System.out.println("Light is On");
+    }
+    
+    public void off(){
+        System.out.println("Light is Off");
+    }
 }

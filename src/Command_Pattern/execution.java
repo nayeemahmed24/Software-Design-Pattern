@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Factory_pattern;
+package Command_Pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public interface type_print {
-    void type(); 
+public interface execution {
+    void exc();
 }
