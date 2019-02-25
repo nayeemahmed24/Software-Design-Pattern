@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Command_Pattern;
+package Decorator_Pattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public class main {
-    public static void main(String[] args) {
-        execution n = new OnLight(new lightClass());
-        n.exc();
-        execution nx = new OffLight(new lightClass());
-        nx.exc();
+public class pizza implements food {
+
+    @Override
+    public void create_food() {
+        System.out.println("Pizza is created");
     }
+    
 }
