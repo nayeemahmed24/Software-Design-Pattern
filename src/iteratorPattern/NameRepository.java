@@ -12,17 +12,10 @@ import java.util.ArrayList;
  * @author CSE CARNIVAL 2017
  */
 public class NameRepository implements Container {
-   public String names[] ;
+   public String names[] = {"Robert" , "John" ,"Julie" , "Lora"};
 
-   NameRepository(){
-       names = new String[100];
-   }
    @Override
    public Iterator getIterator() {
       return new NameIterator(names);
-   }
-   
-   void addItem(String sss){
-       this.addItem(sss);
    }
 }

@@ -25,7 +25,7 @@ package iteratorPattern;
          }
          return false;
       }
-
+      
       @Override
       public Object next() {
       
