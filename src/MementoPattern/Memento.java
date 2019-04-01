@@ -3,16 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package StatePattern;
+package MementoPattern;
 
 /**
  *
  * @author CSE CARNIVAL 2017
  */
-public class main {
-    public static void main(String[] args) {
-         Vendor chain = new Vendor();
-         chain.request();        
+public class Memento {
+    private String state;
 
-    }
+   public Memento(String state){
+      this.state = state;
+   }
+
+   public String getState(){
+      return state;
+   }	
 }
